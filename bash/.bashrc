@@ -5,5 +5,4 @@ alias ll='ls -lha'
 EDITOR="hx"
 
 # Starship
-STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init bash)"

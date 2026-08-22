@@ -6,5 +6,4 @@ alias yz='yazi'
 EDITOR="hx"
 
 # Starship
-STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init zsh)"
