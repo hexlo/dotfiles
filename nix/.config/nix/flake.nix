@@ -1,3 +1,6 @@
+# Command to rebuild:
+# sudo darwin-rebuild switch --flake ~/.config/nix#mbp
+
 {
   description = "Example nix-darwin system flake";
 
@@ -20,6 +23,9 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ 
+          pkgs.aerospace
+          pkgs.colima
+          pkgs.docker-client
           pkgs.firefox
           pkgs.ghostty-bin
           pkgs.helix
@@ -27,8 +33,10 @@
           pkgs.lazydocker
           pkgs.lazygit
           pkgs.starship
+          pkgs.stow
           pkgs.tmux
           pkgs.vim
+          pkgs.yazi
           pkgs.zellij
         ];
 
@@ -98,6 +106,7 @@
         finder.CreateDesktop = false;
         finder.FXPreferredViewStyle = "clmv";
         finder.NewWindowTarget = "Home";
+        finder.AppleShowAllFiles = true;
         finder.ShowPathbar = true;
         finder.ShowStatusBar = true;
         loginwindow.GuestEnabled = false;
