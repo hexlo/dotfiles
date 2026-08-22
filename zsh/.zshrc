@@ -1,5 +1,6 @@
 # Aliases
 alias ll='ls -lha'
+alias yz='yazi' 
 
 # System Variables
 EDITOR="hx"
