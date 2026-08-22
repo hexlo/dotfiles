@@ -1,5 +1,5 @@
 # Command to rebuild:
-# sudo darwin-rebuild switch --flake ~/.config/nix#mbp
+# sudo darwin-rebuild switch --flake /Users/hexlo/dotfiles/nix#mbp
 
 {
   description = "Example nix-darwin system flake";
