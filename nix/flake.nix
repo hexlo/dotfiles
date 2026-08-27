@@ -32,6 +32,8 @@
           pkgs.mkalias
           pkgs.lazydocker
           pkgs.lazygit
+          pkgs.octaveFull
+          pkgs.rustup
           pkgs.starship
           pkgs.stow
           pkgs.tmux
@@ -47,6 +49,8 @@
         ];
         casks = [
           "iina"
+          "discord"
+          "google-drive"
           "plex"
           "plexamp"
           "steam"
@@ -54,6 +58,7 @@
         ];
         masApps = {
           "Infuse" = 1136220934;
+          "Wireguard" = 1451685025;
         };
         onActivation = {
           cleanup = "zap";
@@ -96,6 +101,7 @@
         dock.persistent-apps = [
           "${pkgs.ghostty-bin}/Applications/Ghostty.app"
           "${pkgs.firefox}/Applications/Firefox.app"
+          "/Applications/Discord.app"
           "/Applications/IINA.app"
           "/Applications/Infuse.app"
           "/Applications/Plex.app"
