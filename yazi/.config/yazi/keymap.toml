@@ -1,0 +1,4 @@
+[mgr]
+prepend_keymap = [
+  { on = [ "g", "i" ],       run = "cd '~/Library/Mobile Documents/com~apple~CloudDocs'", desc = "Goto iCloud Drive" }
+]
