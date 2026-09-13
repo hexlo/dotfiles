@@ -1,0 +1,4 @@
+[opener]
+edit = [
+  { run = '$EDITOR "%s"', desc = "neovim", block = true, for = "unix" }
+]
