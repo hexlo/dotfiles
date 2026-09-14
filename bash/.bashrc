@@ -1,10 +1,5 @@
 # Aliases
-alias ll='ls -lha'
-alias hx='helix'
-alias yz='yazi'
-alias ee='emacs'
-alias enw='emacs -nw'
-alias nv='nvim'
+[ -f "$(dirname "${BASH_SOURCE[0]}")/aliases.sh" ] && source "$(dirname "${BASH_SOURCE[0]}")/aliases.sh"
 
 # System Variables
 export EDITOR="nvim"

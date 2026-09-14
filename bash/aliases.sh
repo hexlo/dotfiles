@@ -1,0 +1,6 @@
+alias ll='ls -lha'
+alias hx='helix'
+alias yz='yazi'
+alias ee='emacs'
+alias enw='emacs -nw'
+alias nv='nvim'
