@@ -1,5 +1,5 @@
 # Aliases
-[ -f "$(dirname "${BASH_SOURCE[0]}")/aliases.sh" ] && source "$(dirname "${BASH_SOURCE[0]}")/aliases.sh"
+[ -f "/home/hexlo/dotfiles/bash/aliases.sh" ] && source "/home/hexlo/dotfiles/bash/aliases.sh"
 
 # System Variables
 export EDITOR="nvim"
