@@ -5,7 +5,7 @@
 export EDITOR="nvim"
 
 # Starship
-export STARSHIP_CONFIG=~/starship.toml
+export STARSHIP_CONFIG=~/.config/starship.toml
 eval "$(starship init bash)"
 
 # emacs
