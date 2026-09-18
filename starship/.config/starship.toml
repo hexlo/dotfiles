@@ -131,7 +131,7 @@ format = "[$symbol](bold italic bright-blue) "
 
 [os.symbols]
 Arch = "󰣇"
-Macos = ""
+Macos = ""
 Linux = "󰌽"
 Windows = "󰍲"
 
