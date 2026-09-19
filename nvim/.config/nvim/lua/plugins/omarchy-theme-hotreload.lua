@@ -1,3 +1,9 @@
+local theme_file = vim.fn.stdpath("config") .. "/lua/plugins/theme.lua"
+
+if vim.fn.filereadable(theme_file) == 0 then
+  return {}
+end
+
 return {
 	{
 		name = "theme-hotreload",
