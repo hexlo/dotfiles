@@ -241,7 +241,7 @@ symbol = ""
 version_format = "${raw}"
 
 [python]
-format = " [$symbol$version]($style)"
+format = ' [$symbol$version(\($virtualenv\) )]($style)'
 symbol = " "
 version_format = "${raw}"
 style = "bold bright-yellow"
