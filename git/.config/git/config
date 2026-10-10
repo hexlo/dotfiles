@@ -10,3 +10,5 @@
 [user]
 	name = hexlo
 	email = hexlo.dev@gmail.com
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
